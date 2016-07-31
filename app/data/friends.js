@@ -1,17 +1,51 @@
-// ===============================================================================
-// DATA
-// Below data will hold some friends
-// Initially we just set it equal to a "dummy" friend
-// ===============================================================================
-
-
-var listFriends = [
-  {
-    name:"Harry Potter",
-    photo:'<a href="http://harrypotter.wikia.com/wiki/Harry_Potter" target="_blank"><img src = "http://vignette2.wikia.nocookie.net/harrypotter/images/a/a9/Dhharryroomhighreso.png/revision/latest/scale-to-width-down/250?cb=20160722220125" border = "0" alt="Harry Potter"></a>',
-    scores:[5,5,5,5,5,5,5,5,5,5]
-  }
+var listfriends = [
+{"name": "Harry",
+ "picture":" https://upload.wikimedia.org/wikipedia/en/4/44/HarryPotter5poster.jpg",
+ "scores": [
+  5,
+  3,
+  1,
+  3,
+  4,
+  1,
+  3,
+  4,
+  1,
+  1
+ ]
+},
+{"name": "Ron",
+ "picture":"https://en.wikipedia.org/wiki/Ron_Weasley#/media/File:Ron_Weasley_poster.jpg" ,
+ "scores": [
+  1,
+  1,
+  2,
+  2,
+  2,
+  1,
+  5,
+  5,
+  3,
+  1
+ ]
+},
+{"name": "Hermione",
+ "picture": "https://en.wikipedia.org/wiki/Hermione_Granger#/media/File:Hermione_Granger_poster.jpg",
+ "scores": [
+  3,
+  4,
+  5,
+  2,
+  1,
+  1,
+  5,
+  3,
+  1,
+  1
+ ]
+},
 ];
 
-// Note how we export the array. This makes it accessible to other files using require. 
-module.exports = listFriend;   
+
+
+module.exports = listfriends;
